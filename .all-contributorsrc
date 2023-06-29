@@ -18,6 +18,16 @@
         "infra",
         "test"
       ]
+    },
+    {
+      "login": "AshCorr",
+      "name": "Ashleigh Carr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21217225?v=4",
+      "profile": "https://github.com/AshCorr",
+      "contributions": [
+        "code",
+        "infra"
+      ]
     }
   ]
 }

@@ -1,0 +1,27 @@
+name: Pull Request
+
+on:
+  - pull_request
+
+permissions:
+  contents: read
+
+jobs:
+  pull_request:
+    name: Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'yarn'
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+      - name: Validate
+        run: yarn validate
