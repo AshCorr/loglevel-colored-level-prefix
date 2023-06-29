@@ -109,13 +109,13 @@ MIT
 
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
-[build-badge]: https://img.shields.io/travis/kentcdodds/loglevel-colored-level-prefix.svg?style=flat-square
-[build]: https://travis-ci.org/kentcdodds/loglevel-colored-level-prefix
+[build-badge]: https://github.com/AshCorr/loglevel-colored-level-prefix/actions/workflows/release.yaml/badge.svg
+[build]: https://github.com/AshCorr/loglevel-colored-level-prefix/actions/workflows/release.yaml
 [version-badge]: https://img.shields.io/npm/v/loglevel-colored-level-prefix.svg?style=flat-square
-[package]: https://www.npmjs.com/package/@ashcorr/loglevel-colored-level-prefix
-[downloads-badge]: https://img.shields.io/npm/dm/loglevel-colored-level-prefix.svg?style=flat-square
-[npm-stat]: http://npm-stat.com/charts.html?package=loglevel-colored-level-prefix&from=2016-04-01
-[license-badge]: https://img.shields.io/npm/l/loglevel-colored-level-prefix.svg?style=flat-square
+[package]: https://img.shields.io/npm/v/@ashcorr/loglevel-colored-level-prefix.svg?style=flat-square
+[downloads-badge]: https://img.shields.io/npm/dm/@ashcorr/loglevel-colored-level-prefix.svg?style=flat-square
+[npm-stat]: http://npm-stat.com/charts.html?package=@ashcorr/loglevel-colored-level-prefix&from=2016-04-01
+[license-badge]: https://img.shields.io/npm/l/@ashcorr/loglevel-colored-level-prefix.svg?style=flat-square
 [license]: https://github.com/ashcorr/loglevel-colored-level-prefix/blob/master/other/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
@@ -125,7 +125,7 @@ MIT
 [github-watch]: https://github.com/ashcorr/loglevel-colored-level-prefix/watchers
 [github-star-badge]: https://img.shields.io/github/stars/ashcorr/loglevel-colored-level-prefix.svg?style=social
 [github-star]: https://github.com/ashcorr/loglevel-colored-level-prefix/stargazers
-[emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
+[emojis]: https://github.com/all-contributors/all-contributors#emoji-key
 [all-contributors]: https://github.com/all-contributors/all-contributors
 [loglevel]: https://www.npmjs.com/package/loglevel
 [prettier-eslint]: https://github.com/prettier/prettier-eslint
