@@ -1,6 +1,6 @@
 # loglevel-colored-level-prefix
 
-Forked from https://github.com/kentcdodds/loglevel-colored-level-prefix
+Thank you @kentcdodds for the original code forked from https://github.com/kentcdodds/loglevel-colored-level-prefix
 
 loglevel plugin that adds colored level prefix (node only)
 
