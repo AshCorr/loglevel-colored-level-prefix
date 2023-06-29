@@ -4,9 +4,10 @@
   "description": "loglevel plugin that adds colored level prefix (node only)",
   "main": "dist/index.js",
   "scripts": {
-    "validate": "yarn lint && yarn build && yarn test",
+    "validate": "yarn lint:check && yarn build && yarn test",
     "build": "rimraf dist && babel --copy-files --out-dir dist --ignore *.test.js src",
-    "lint": "eslint .",
+    "lint": "eslint --max-warnings=0 --fix .",
+    "lint:check": "eslint --max-warnings=0 .",
     "test": "jest",
     "test:watch": "jest --watch",
     "semantic-release": "semantic-release",
